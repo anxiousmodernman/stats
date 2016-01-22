@@ -7,10 +7,11 @@ Use the go tool to get this repo
 go get github.com/anxiousmodernman/stats
 ```
 
-Open the project in Atom.
+Go to the directory, get all the dependencies with `go get` and open the project in Atom.
 
 ```
 cd $GOPATH/src/github.com/anxiousmodernman/stats
+go get ./...
 atom .
 ```
 
