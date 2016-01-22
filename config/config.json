@@ -1,0 +1,16 @@
+
+{
+	"clusterIdentifier": "test-cluster-1",
+	"masterUserPassword": "",
+	"masterUsername": "admin",
+	"nodeType": "dc1.large",
+	"availabilityZone": "us-east-1a",
+	"clusterParameterGroupName": "default.redshift-1.0",
+	"clusterSubnetGroupName": "primary",
+	"dbName": "prod",
+	"encrypted": false,
+	"numberOfNodes": 2,
+	"port": 5439,
+	"publiclyAccessible": false,
+	"vpcSecurityGroupIDs": "sg-6f82510b"
+}
